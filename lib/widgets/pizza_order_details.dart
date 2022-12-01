@@ -3,12 +3,12 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:youtube_diegoveloper_challenges/pizza_order/pizza_order_bloc.dart';
-import 'ingredient.dart';
+import '../controller/pizza_order_bloc.dart';
+import '../models/ingredient.dart';
 import 'pizza_cart_button.dart';
 import 'pizza_cart_icon.dart';
 import 'pizza_ingredients.dart';
-import 'pizza_order_provider.dart';
+import '../controller/pizza_order_provider.dart';
 import 'pizza_size_button.dart';
 
 const _pizzaCartSize = 55.0;

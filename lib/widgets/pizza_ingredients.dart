@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:youtube_diegoveloper_challenges/pizza_order/pizza_order_provider.dart';
-
-import 'ingredient.dart';
+import '../controller/pizza_order_provider.dart';
+import '../models/ingredient.dart';
 
 const itemSize = 55.0;
 

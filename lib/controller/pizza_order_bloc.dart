@@ -4,7 +4,7 @@ import 'dart:ui';
 import 'package:flutter/foundation.dart' show ChangeNotifier, ValueNotifier;
 import 'package:flutter/rendering.dart';
 
-import 'ingredient.dart';
+import '../models/ingredient.dart';
 
 class PizzaMetadata {
   const PizzaMetadata(this.imageBytes, this.position, this.size);
